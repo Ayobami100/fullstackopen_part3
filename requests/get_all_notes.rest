@@ -8,3 +8,12 @@ content-type: application/json
     "content": "sample",
     "important": "False"
 }
+###
+DELETE http://localhost:3001/api/persons/2
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "content": "uiii oppp 08090765432"
+}
